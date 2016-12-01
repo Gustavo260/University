@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+<script>
+
+function PagoContado(montoPagar,nombreCliente)
+{
+	
+	if(parseInt(montoPagar)< parseInt(40000))
+	{
+		total=(montoPagar*parseInt(85))/parseInt(100);
+		valorDescuento=parseInt(montoPagar)-parseInt(total);
+		resumen="El cliente "+nombreCliente+" escojió una forma de pago al contado, se le aplica un descuento de un 15%, el valor del descuento es: "+valorDescuento+" con un total de "+parseInt(total);
+		document.formulario1.txtResumen.value=resumen;
+	}
+	
+	
+	if(parseInt(montoPagar)>= parseInt(40000) && parseInt(montoPagar)< parseInt(70000))
+	{
+		total=(montoPagar*parseInt(75))/parseInt(100);
+		valorDescuento=parseInt(montoPagar)-parseInt(total);
+		resumen="El cliente "+nombreCliente+" escojió una forma de pago al contado, se le aplica un descuento de un 25%, el valor del descuento es: "+valorDescuento+" con un total de "+parseInt(total);
+		document.formulario1.txtResumen.value=resumen;
+	}
+	
+		if(parseInt(montoPagar)>= parseInt(70000) && parseInt(montoPagar)< parseInt(100000))
+	{
+		total=(montoPagar*parseInt(65))/parseInt(100);
+		valorDescuento=parseInt(montoPagar)-parseInt(total);
+		resumen="El cliente "+nombreCliente+" escojió una forma de pago al contado, se le aplica un descuento de un 35%, el valor del descuento es: "+valorDescuento+" con un total de "+parseInt(total);
+		document.formulario1.txtResumen.value=resumen;
+	}
+	
+		if(parseInt(montoPagar)>= parseInt(100000) && parseInt(montoPagar)< parseInt(150000))
+	{
+		total=(montoPagar*parseInt(55))/parseInt(100);
+		valorDescuento=parseInt(montoPagar)-parseInt(total);
+		resumen="El cliente "+nombreCliente+" escojió una forma de pago al contado, se le aplica un descuento de un 45%, el valor del descuento es: "+valorDescuento+" con un total de "+parseInt(total);
+		document.formulario1.txtResumen.value=resumen;
+	}
+	
+		if(parseInt(montoPagar)>= parseInt(150000))
+	{
+		total=(montoPagar*parseInt(45))/parseInt(100);
+		valorDescuento=parseInt(montoPagar)-parseInt(total);
+		resumen="El cliente "+nombreCliente+" escojió una forma de pago al contado, se le aplica un descuento de un 55%, el valor del descuento es: "+valorDescuento+" con un total de "+parseInt(total);
+		document.formulario1.txtResumen.value=resumen;
+	}
+}
+
+function PagoCredito(montoPagar,nombreCliente)
+{
+	if(parseInt(montoPagar)< parseInt(40000))
+	{
+		total=(montoPagar*parseInt(120))/parseInt(100);
+		valorInteres=parseInt(total)-parseInt(montoPagar);
+		resumen="El cliente "+nombreCliente+" escojió una forma de pago Crédito, se le agrega un interes de 20%, el valor del interes es de un: "+valorInteres+" con un total de "+parseInt(total);
+		document.formulario1.txtResumen.value=resumen;
+	}
+	
+	if(parseInt(montoPagar)>= parseInt(40000) && parseInt(montoPagar)< parseInt(70000))
+	{
+		total=(montoPagar*parseInt(130))/parseInt(100);
+		valorInteres=parseInt(total)-parseInt(montoPagar);
+		resumen="El cliente "+nombreCliente+" escojió una forma de pago Crédito, se le agrega un interes de 30%, el valor del interes es de un: "+valorInteres+" con un total de "+parseInt(total);
+		document.formulario1.txtResumen.value=resumen;
+	}
+	
+		if(parseInt(montoPagar)>= parseInt(70000) && parseInt(montoPagar)< parseInt(100000))
+	{
+		total=(montoPagar*parseInt(140))/parseInt(100);
+		valorInteres=parseInt(total)-parseInt(montoPagar);
+		resumen="El cliente "+nombreCliente+" escojió una forma de pago Crédito, se le agrega un interes de 40%, el valor del interes es de un: "+valorInteres+" con un total de "+parseInt(total);
+		document.formulario1.txtResumen.value=resumen;
+	}
+	
+		if(parseInt(montoPagar)>= parseInt(100000) && parseInt(montoPagar)< parseInt(150000))
+	{
+		total=(montoPagar*parseInt(150))/parseInt(100);
+		valorInteres=parseInt(total)-parseInt(montoPagar);
+		resumen="El cliente "+nombreCliente+" escojió una forma de pago Crédito, se le agrega un interes de 50%, el valor del interes es de un: "+valorInteres+" con un total de "+parseInt(total);
+		document.formulario1.txtResumen.value=resumen;
+	}
+	
+		if(parseInt(montoPagar)>= parseInt(150000))
+	{
+		total=(montoPagar*parseInt(160))/parseInt(100);
+		valorInteres=parseInt(total)-parseInt(montoPagar);
+		resumen="El cliente "+nombreCliente+" escojió una forma de pago Crédito, se le agrega un interes de 60%, el valor del interes es de un: "+valorInteres+" con un total de "+parseInt(total);
+		document.formulario1.txtResumen.value=resumen;
+	}
+}
+
+
+function FormaDePago(nombre,monto,opcion)
+{
+	if(opcion[0].checked==true)
+	{
+		PagoContado(monto,nombre);
+	}
+	
+	if(opcion[1].checked==true)
+	{
+		PagoCredito(monto,nombre);
+	}
+}
+
+</script>
+<body>
+<form action="" method="post" name="formulario1">
+<table width="463" border="1" align="center" bgcolor="#CCCCCC">
+  <tr>
+    <td width="245" align="center">Ingrese Nombre del Cliente</td>
+    <td width="202"><label>
+      <input type="text" name="txtNombre" id="txtNombre" />
+    </label></td>
+  </tr>
+  <tr>
+    <td align="center">Ingrese monto de la Compra</td>
+    <td><label>
+      <input type="text" name="txtMonto" id="txtMonto" />
+    </label></td>
+  </tr>
+  <tr>
+    <td colspan="2"> Seleccione la forma de pago</td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><p>
+      <label>
+        <input type="radio" name="rbtOpciones" value="0" id="RadioOpciones_0" />
+        Contado</label>
+      
+      <label>
+        <input type="radio" name="rbtOpciones" value="1" id="RadioOpciones_1" />
+        Crédito</label>
+      <br />
+    </p></td>
+  </tr>
+  <tr>
+    <td align="center"><label>
+      <input type="button" name="btnCalcular" id="btnCalcular" value="Calcular" onclick="FormaDePago(txtNombre.value,txtMonto.value,rbtOpciones)"/>
+    </label></td>
+    <td align="center"><label>
+      <input type="reset" name="btnCancelar" id="btnCancelar" value="Limpiar" />
+    </label></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><label>
+      <textarea name="txtResumen" cols="60" rows="5" readonly="readonly" id="txtResumen"></textarea>
+      <br />
+    </label></td>
+  </tr>
+</table>
+</form>
+</body>
+</html>

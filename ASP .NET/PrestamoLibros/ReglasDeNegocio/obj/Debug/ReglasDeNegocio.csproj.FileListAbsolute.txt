@@ -1,0 +1,5 @@
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\ReglasDeNegocio\bin\Debug\ReglasDeNegocio.dll
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\ReglasDeNegocio\bin\Debug\ReglasDeNegocio.pdb
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\ReglasDeNegocio\obj\Debug\ResolveAssemblyReference.cache
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\ReglasDeNegocio\obj\Debug\ReglasDeNegocio.dll
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\ReglasDeNegocio\obj\Debug\ReglasDeNegocio.pdb

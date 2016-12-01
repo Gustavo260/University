@@ -1,0 +1,40 @@
++-------------------------------------------------------+-------+---------+
+| ASPECTO                                               | LOGRO | PUNTAJE |
++-------------------------------------------------------+-------+---------+
+| La clase abstracta Publicacion está implementada      |   B   |  16/20  | No es abstracta
+| por completo y de manera correcta.                    |       |         |
++-------------------------------------------------------+-------+---------+
+| La clase Libro está implementada por completo y       |  MB   |   5/5   |
+| de manera correcta.                                   |       |         |
++-------------------------------------------------------+-------+---------+
+| La clase Periodico está implementada por              |  MB   |   5/5   |
+| completo y de manera correcta.                        |       |         |
++-------------------------------------------------------+-------+---------+
+| La clase abstracta Revista está implementada por      |  MB   |   5/5   |
+| completo y de manera correcta.                        |       |         |
++-------------------------------------------------------+-------+---------+
+| El método public void Prestar(int dias) está          |   B   |   8/10  | No considera el estado
+| implementada según lo especificado.                   |       |         |
++-------------------------------------------------------+-------+---------+
+| El método public void Devolver() está implementada    |   B   |   8/10  | No considera el estado
+| según lo especificado.                                |       |         |
++-------------------------------------------------------+-------+---------+
+| El programa de pruebas está desarrollado según lo     |  MB   |  10/10  |
+| especificado, por completo y de manera correcta.      |       |         |
++-------------------------------------------------------+-------+---------+
+| Se utilizan de manera correcta y acertada estructuras |   I   |   4/15  | No itera ningun proceso ni verifica prestamo
+| de E/S, de control de repetición y de decisión.       |       |         |
++-------------------------------------------------------+-------+---------+
+| Utiliza adecuadamente la clase DateTime.              |   MB  |   5/5   |
++-------------------------------------------------------+-------+---------+
+| La aplicación se programado orientado a objetos.      |    S  |   5/5   | Solo emplea objetos Publicacion 
++-------------------------------------------------------+-------+---------+
+| La conversión explicita de tipos asegura una          |   MB  |   5/5   |
+| ejecución libre de errores y excepciones.             |       |         |
++-------------------------------------------------------+-------+---------+
+| El diseño de la aplicación está bien cuidado y se     |   MB  |   5/5   |
+| usaron buenas prácticas de programación en el código. |       |         |
++-------------------------------------------------------+-------+---------+
+
+  PUNTAJE TOTAL: 75/100
+  NOTA: 5,1

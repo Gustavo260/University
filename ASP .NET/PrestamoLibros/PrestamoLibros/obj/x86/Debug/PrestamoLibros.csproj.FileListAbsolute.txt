@@ -1,0 +1,21 @@
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\obj\x86\Debug\MainWindow.baml
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\obj\x86\Debug\MainWindow.g.cs
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\obj\x86\Debug\App.g.cs
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\obj\x86\Debug\PrestamoLibros_MarkupCompile.cache
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\obj\x86\Debug\PrestamoLibros.g.resources
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\obj\x86\Debug\PrestamoLibros.Properties.Resources.resources
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\bin\Debug\PrestamoLibros.exe
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\bin\Debug\PrestamoLibros.pdb
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\bin\Debug\ClienteWPF.exe
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\bin\Debug\ReglasDeNegocio.dll
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\bin\Debug\ReglasNegocio.dll
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\bin\Debug\ReglasDeNegocio.pdb
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\bin\Debug\ClienteWPF.pdb
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\bin\Debug\ReglasNegocio.pdb
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\obj\x86\Debug\PrestamoLibros.exe
+c:\users\gustavo\documents\visual studio 2010\Projects\PrestamoLibros\PrestamoLibros\obj\x86\Debug\PrestamoLibros.pdb
+C:\Users\Gustavo\Desktop\PrestamoLibros\PrestamoLibros\obj\x86\Debug\PrestamoLibros.exe
+C:\Users\Gustavo\Desktop\PrestamoLibros\PrestamoLibros\obj\x86\Debug\PrestamoLibros.pdb

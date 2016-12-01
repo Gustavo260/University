@@ -1,0 +1,27 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body bgcolor="gray">
+        <form name="formuUpdate" action="ServletActualizarTurnos.view" method="GET">
+            <table border="1" align="center">
+                <br><br><br><br><br><br><br><br><br><br><br>
+                <tr><td>Ingrese Orden del turno: </td><td><input type="text" name="txtOrden" value=""></td></tr>
+                <tr><td>Campo que se desea editar:</td><br>
+                <td><br>Rut<input type="radio" name="campos2" value="RUT" /><br>
+                Patente<input type="radio" name="campos2" value="PATENTE" /><br>
+                Fecha<input type="radio" name="campos2" value="FECHA" /><br>
+                Hora<input type="radio" name="campos2" value="HORARIO" /></td></tr>
+                <tr><td>Ingrese valor a cambiar: </td><td><input type="text" name="txtValor" value=""></td></tr><br><br>
+                <tr><td></td></tr>
+                <tr><td colspan="4" align="center"><input type="submit" value="Actualizar" name="btnUpdate" /></td><td></td><td></td></tr>
+            </table>
+        </form>
+    </body>
+</html>

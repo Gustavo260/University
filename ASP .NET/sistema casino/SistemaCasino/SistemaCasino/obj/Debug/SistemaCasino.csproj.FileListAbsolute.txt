@@ -1,0 +1,5 @@
+c:\users\temp.inacap\documents\visual studio 2010\Projects\SistemaCasino\SistemaCasino\bin\SistemaCasino.dll
+c:\users\temp.inacap\documents\visual studio 2010\Projects\SistemaCasino\SistemaCasino\bin\SistemaCasino.pdb
+c:\users\temp.inacap\documents\visual studio 2010\Projects\SistemaCasino\SistemaCasino\obj\Debug\ResolveAssemblyReference.cache
+c:\users\temp.inacap\documents\visual studio 2010\Projects\SistemaCasino\SistemaCasino\obj\Debug\SistemaCasino.dll
+c:\users\temp.inacap\documents\visual studio 2010\Projects\SistemaCasino\SistemaCasino\obj\Debug\SistemaCasino.pdb

@@ -1,0 +1,26 @@
+G:\9del4\admbiblioteca\admbiblioteca\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\9del4\admbiblioteca\admbiblioteca\bin\Debug\admbiblioteca.exe
+G:\9del4\admbiblioteca\admbiblioteca\bin\Debug\admbiblioteca.pdb
+G:\9del4\admbiblioteca\admbiblioteca\obj\x86\Debug\admbiblioteca.exe
+G:\9del4\admbiblioteca\admbiblioteca\obj\x86\Debug\admbiblioteca.pdb
+G:\9del4\admbiblioteca\admbiblioteca\bin\Debug\ClassLibrary1.dll
+G:\9del4\admbiblioteca\admbiblioteca\bin\Debug\ClassLibrary1.pdb
+C:\Users\mau\Documents\Visual Studio 2010\Projects\admbiblioteca\admbiblioteca\obj\x86\Debug\admbiblioteca.exe
+C:\Users\mau\Documents\Visual Studio 2010\Projects\admbiblioteca\admbiblioteca\obj\x86\Debug\admbiblioteca.pdb
+C:\Users\mau\Documents\Visual Studio 2010\Projects\admbiblioteca\admbiblioteca\bin\Debug\admbiblioteca.exe
+C:\Users\mau\Documents\Visual Studio 2010\Projects\admbiblioteca\admbiblioteca\bin\Debug\admbiblioteca.pdb
+C:\Users\Gustavo\Desktop\admbiblio mau\admbiblioteca\admbiblioteca\obj\x86\Debug\admbiblioteca.exe
+C:\Users\Gustavo\Desktop\admbiblio mau\admbiblioteca\admbiblioteca\obj\x86\Debug\admbiblioteca.pdb
+C:\Users\Gustavo\Desktop\admbiblio mau\admbiblioteca\admbiblioteca\bin\Debug\admbiblioteca.exe
+C:\Users\Gustavo\Desktop\admbiblio mau\admbiblioteca\admbiblioteca\bin\Debug\admbiblioteca.pdb
+C:\Users\Gustavo\Desktop\admbiblio mau\admbiblioteca\admbiblioteca\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\terminado!!!\admbiblioteca\admbiblioteca\obj\x86\Debug\admbiblioteca.exe
+F:\terminado!!!\admbiblioteca\admbiblioteca\obj\x86\Debug\admbiblioteca.pdb
+F:\terminado!!!\admbiblioteca\admbiblioteca\bin\Debug\admbiblioteca.exe
+F:\terminado!!!\admbiblioteca\admbiblioteca\bin\Debug\admbiblioteca.pdb
+F:\terminado!!!\admbiblioteca\admbiblioteca\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\Otoño 2013\Taller de Programación III\Pruebas\GestionBiblioteca\Alumnos\702\Diaz Maturana\admbiblioteca\admbiblioteca\obj\x86\Debug\admbiblioteca.exe
+G:\Otoño 2013\Taller de Programación III\Pruebas\GestionBiblioteca\Alumnos\702\Diaz Maturana\admbiblioteca\admbiblioteca\obj\x86\Debug\admbiblioteca.pdb
+G:\Otoño 2013\Taller de Programación III\Pruebas\GestionBiblioteca\Alumnos\702\Diaz Maturana\admbiblioteca\admbiblioteca\bin\Debug\admbiblioteca.exe
+G:\Otoño 2013\Taller de Programación III\Pruebas\GestionBiblioteca\Alumnos\702\Diaz Maturana\admbiblioteca\admbiblioteca\bin\Debug\admbiblioteca.pdb
+G:\Otoño 2013\Taller de Programación III\Pruebas\GestionBiblioteca\Alumnos\702\Diaz Maturana\admbiblioteca\admbiblioteca\obj\x86\Debug\ResolveAssemblyReference.cache

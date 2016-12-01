@@ -1,0 +1,27 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body bgcolor="gray">
+        <form name="formuUpdate" action="ServletActualizarTaxista.view" method="GET">
+            <table border="1" align="center">
+                <br><br><br><br><br><br><br><br><br><br><br>
+                <tr><td>Ingrese rut del taxista: </td><td><input type="text" name="txtRut" value=""></td></tr>
+                <tr><td>Campo que se desea editar:</td><br>
+                <td>Nombre<input type="radio" name="campos" value="NOMBRE" checked="checked" /><br>
+                Apellido<input type="radio" name="campos" value="APELLIDO" /><br>
+                Direccion<input type="radio" name="campos" value="DIRECCION" /><br>
+                Telefono<input type="radio" name="campos" value="TELEFONO" /><br></td></tr>
+                <tr><td>Ingrese valor a cambiar: </td><td><input type="text" name="txtValor" value=""></td></tr><br><br>
+                <tr><td></td></tr>
+                <tr><td colspan="4" align="center"><input type="submit" value="Actualizar" name="btnUpdate" /></td><td></td><td></td></tr>
+            </table>
+        </form>
+    </body>
+</html>

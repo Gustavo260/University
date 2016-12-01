@@ -1,0 +1,2 @@
+C:\Users\mau\Documents\Visual Studio 2010\Projects\admbiblioteca\admbiblioteca\obj\x86\Debug\admbiblioteca.exe
+C:\Users\mau\Documents\Visual Studio 2010\Projects\admbiblioteca\admbiblioteca\obj\x86\Debug\admbiblioteca.pdb

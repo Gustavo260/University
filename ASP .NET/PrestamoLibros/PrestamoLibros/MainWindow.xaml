@@ -1,0 +1,47 @@
+﻿<Window x:Class="PrestamoLibros.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="433" Width="525">
+    <Grid Height="411">
+        <Grid Margin="12,12,24,-17">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="169" />
+                <ColumnDefinition Width="184*" />
+                <ColumnDefinition Width="114*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="23" />
+                <RowDefinition Height="36" />
+                <RowDefinition Height="36*" />
+                <RowDefinition Height="39*" />
+                <RowDefinition Height="51*" />
+                <RowDefinition Height="34*" />
+                <RowDefinition Height="38*" />
+                <RowDefinition Height="64" />
+            </Grid.RowDefinitions>
+            <Label Content="Nombre Cliente:" Grid.Column="0" Grid.Row="0" Margin="5" />
+            <Label Content="ISBN:" Grid.Column="0" Grid.Row="1" Margin="5" />
+            <Label Content="Lista de libros prestados:" Grid.Row="6" Margin="6,9,4,9" Grid.RowSpan="2" />
+            <Label Content="Libros disponibles:" Grid.Row="3" Margin="5,6,5,4" />
+            <TextBox Grid.Column="1" Grid.ColumnSpan="2" Height="23" Margin="5,5,0,5" Name="Clientetxt" />
+            <ComboBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6" Height="23" IsEditable="False" Margin="6,4,4,0" Name="PrestamoComboBox" />
+            <ComboBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3" Height="23" IsEditable="False" Margin="5" Name="DisponiblesComboBox"/>
+            <Label Content="Clientes Registados:" Grid.Row="4" Height="28" HorizontalAlignment="Left" Margin="6,5,0,0" VerticalAlignment="Top" Width="121" />
+            <ComboBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4" Height="23" HorizontalAlignment="Left" IsEditable="False" Margin="6,10,0,0" Name="ClientesComboBox" VerticalAlignment="Top" Width="286" />
+            <TextBox Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" Height="26" HorizontalAlignment="Left" Margin="6,5,0,0" Name="ISBNtxt" VerticalAlignment="Top" Width="305" />
+            <Label Content="Titulo del libro:" Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="6,34,0,0" Name="label1" VerticalAlignment="Top" Grid.RowSpan="3" />
+            <TextBox Grid.Row="2" Height="23" HorizontalAlignment="Left" Margin="6,0,0,0" Name="titulotxt" VerticalAlignment="Top" Width="304" Grid.ColumnSpan="2" Grid.Column="1" />
+            <TextBox Grid.Column="1" Grid.Row="7" Height="23" HorizontalAlignment="Left" Margin="6,2,0,0" Name="Fprestamo" VerticalAlignment="Top" Width="286" Grid.ColumnSpan="2" />
+            <Label Content="Fecha prestamo:" Grid.Row="7" Height="28" HorizontalAlignment="Left" Margin="6,0,0,0" Name="label2" VerticalAlignment="Top" Width="141" />
+            <Label Content="Fecha devolucion:" Height="28" HorizontalAlignment="Left" Margin="6,10,0,0" Name="label3" VerticalAlignment="Top" Width="141" Grid.Row="8" />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="7,10,0,0" Name="Fdevolucion" VerticalAlignment="Top" Width="285" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="8" />
+            <Label Content="Lista de libros devueltos:" Margin="6,3,22,10" Grid.Row="5" />
+            <ComboBox Height="23" IsEditable="False" Margin="6,6,4,10" Name="DevolverComboBox" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5" />
+            <Label Content="Devolver/Prestar:" Grid.Row="9" Height="28" HorizontalAlignment="Left" Margin="6,2,0,0" Name="label4" VerticalAlignment="Top" />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="7,7,0,0" Name="devolverOprestartxt" VerticalAlignment="Top" Width="285" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="9" />
+        </Grid>
+        <Button Click="aceptarButton_Click" Content="Aceptar" Height="23" Margin="117,405,80,-17" Name="aceptarButton" />
+    </Grid>
+</Window>

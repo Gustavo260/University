@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+        .style2
+        {
+            text-align: center;
+        }
+        .style3
+        {
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body background="imagenes/fondo-azul-historia136K3.jpg">
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <table class="style1">
+                <tr>
+                    <td class="style2">
+                        <div class="style2">
+                            <span class="style3">Bienvenido a Security Bank</span><br />
+                            <br />
+                            <span class="style3">¿Qué desea hacer?&nbsp;</span><br />
+                            <br />
+                        </div>
+                        <table class="style1">
+                            <tr>
+                                <td>
+                                    <asp:ImageButton ID="ImageButton1" runat="server" />
+                                    <br />
+                                    <br />
+                                    <span class="style3">Buscar</span></td>
+                                <td style="color: #FFFFFF">
+                                    <asp:ImageButton ID="ImageButton2" runat="server" />
+                                    <br />
+                                    <br />
+                                    Agregar</td>
+                                <td style="color: #FFFFFF">
+                                    <asp:ImageButton ID="ImageButton3" runat="server" />
+                                    <br />
+                                    <br />
+                                    Eliminar</td>
+                                <td>
+                                    <asp:ImageButton ID="ImageButton4" runat="server" />
+                                    <br />
+                                    <br />
+                                    <span class="style3">Actualizar</span></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
